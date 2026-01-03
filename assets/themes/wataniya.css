@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #0056b3;
+  --color-primary-rgb: 0, 86, 179;
+  --color-secondary: #202020;
+  --color-secondary-rgb: 32, 32, 32;
+  --color-accent: #1d1d1d;
+  --color-accent-rgb: 29, 29, 29;
+  --color-brand-dark: #0a1f3d;
+
+  --font-family-body: 'Poppins', 'Almarai', sans-serif;
+  --font-family-heading: 'Poppins', 'Almarai', sans-serif;
+}
+
+/* Global Overrides for Wataniya Identity */
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: var(--color-primary) !important;
+  color: #ffffff !important;
+  outline: none !important;
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2) !important;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
